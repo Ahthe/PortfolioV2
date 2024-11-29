@@ -14,9 +14,9 @@ import ScreenshotDexioprotocol from "~/assets/screenshots/screenshot-dexioprotoc
 import ScreenshotWilakMedia from "~/assets/screenshots/wilak-media.png";
 import ScrollingBanner from "~/components/scrollingBanner";
 import ScreenshotLearnfast from "~/assets/screenshots/screenshot-learnfast.png";
-import ScreenshotAmplifierAI from "~/assets/screenshots/Screenshot-amplifierai.png";
-import ScreenshotVrShooter from "~/assets/screenshots/Screenshooter-vr.png";
-import ScreenshotJava from "~/assets/screenshots/Screenshot-java.png";
+import ScreenshotAmplifierAI from "~/assets/screenshots/screenshot-amplifierai.png";
+import ScreenshotVrShooter from "~/assets/screenshots/screenshooter-vr.png";
+import ScreenshotJava from "~/assets/screenshots/screenshot-java.png";
 import ScreenshotJavaScript from "~/assets/screenshots/screenshot-javascript.png"
 import ScreenshotAlhamdulillah from "~/assets/screenshots/screenshot-alhamdulillah.png"
 import Selfy from "~/assets/me.png";
@@ -174,44 +174,32 @@ export default function Home() {
         endDate="Dec 2023"
         stack={[
           {
-            name: "Java",
-            link: "https://www.java.com/",
+            name: "NEXTJS",
+            link: "https://nextjs.org/",
           },
           {
-            name: "Python",
-            link: "https://www.python.org/",
+            name: "TypeScript",
+            link: "https://www.TypeScriptlang.org/",
           },
           {
-            name: "C#",
-            link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+            name: "React",
+            link: "https://react.dev/",
           },
           {
-            name: "Swift",
-            link: "https://developer.apple.com/swift/",
+            name: "TailwindCSS",
+            link: "https://tailwindcss.com/",
           },
           {
-            name: "SQL",
-            link: "https://www.mysql.com/",
+            name: "Clerk",
+            link: "https://www.figma.com/",
           },
           {
-            name: "Algorithms",
-            link: "https://en.wikipedia.org/wiki/Algorithm",
+            name: "MongoDB",
+            link: "https://www.mongodb.com/",
           },
           {
-            name: "Data Structures",
-            link: "https://en.wikipedia.org/wiki/Data_structure",
-          },
-          {
-            name: "Discrete Math",
-            link: "https://en.wikipedia.org/wiki/Discrete_mathematics",
-          },
-          {
-            name: "Statistics",
-            link: "https://en.wikipedia.org/wiki/Statistics",
-          },
-          {
-            name: "Calculus",
-            link: "https://en.wikipedia.org/wiki/Calculus",
+            name: "StripeAPI",
+            link: "https://helpx.adobe.com/au/support/xd.html",
           },
         ]}
       >
