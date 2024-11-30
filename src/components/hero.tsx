@@ -11,6 +11,8 @@ import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png"
 import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
 import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png";
 import ScreenshotFalcon from "~/assets/screenshots/screenshot-falconx.png";
+import ScreenshotLiferpg from "~/assets/screenshots/screenshot-liferpg.png";
+import ScreenshotLiferpgv2 from "~/assets/screenshots/screenshot-liferpgv2.png";
 import {bounceAnimation} from "~/utils/animations";
 import {useParallax} from "~/utils/useParallax";
 import {useRef} from "react";
@@ -69,7 +71,7 @@ export default function Hero() {
         }}
       >
         <Image
-          src={ScreenshotTradewiseV2}
+          src={ScreenshotLiferpg}
           alt="Screenshot-CMC"
           className="bottom-0 h-60 w-auto -translate-x-3/4 translate-y-1/2 lg:h-96 lg:-translate-x-1/2 lg:translate-y-1/4"
           priority
