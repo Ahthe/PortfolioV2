@@ -9,13 +9,15 @@ import {cn} from "~/utils/cn";
 import {useParallax} from "~/utils/useParallax";
 import {useRef} from "react";
 import {useSize} from "~/contexts/sizeContext";
+import { FaLink, FaExternalLinkAlt } from "react-icons/fa";
 
 interface ProjectsProps {
   children?: React.ReactNode;
-  role?: string;
+  // role?: string;
   imageDirection: "left" | "right";
   imageSrc: StaticImageData;
   title: string;
+  projectLink?: string;
   stack: {
     name: string;
     link: string;
@@ -24,10 +26,11 @@ interface ProjectsProps {
 
 export default function Projects({
   children,
-  role,
+  // role,
   imageDirection,
   imageSrc,
   title,
+  projectLink,
   stack,
 }: ProjectsProps): JSX.Element {
   const {setSize} = useSize();
@@ -50,8 +53,19 @@ export default function Projects({
               onMouseEnter={() => setSize(80)}
               onMouseLeave={() => setSize(40)}
             >
-              <span className="text-md lg:text-lg ">{role}</span>
-              {title}
+              {/* <span className="text-md lg:text-lg ">{role}</span> */}
+              {projectLink ? (
+                <Link 
+                  href={projectLink}
+                  className="hover:text-blue-400 transition-colors duration-200 flex items-center gap-2"
+                  target="_blank"
+                >
+                  {title}
+                  <FaExternalLinkAlt className="text-2xl inline-block" />
+                </Link>
+              ) : (
+                title
+              )}
             </div>
           </motion.ul>
           <motion.ul
@@ -66,12 +80,12 @@ export default function Projects({
                 <a key={framework.name} href={framework.link} target="_blank">
                   <motion.div
                     variants={bounceAnimation}
-                    className="text-md cursor-pointer rounded-full border border-white/75 px-4 py-2 text-white transition-colors hover:bg-white/10 lg:text-lg hover:"
+                    className="text-md cursor-pointer rounded-full border-4 border-white px-4 py-2 text-white transition-colors hover:bg-white/10 lg:text-lg"
                     onMouseEnter={() => setSize(60)}
                     onMouseLeave={() => setSize(40)}
-                    initial={{backgroundColor: "transparent", scale: 1}}
-                    whileHover={{backgroundColor: "#393fec", scale: 1.05}}
-                    transition={{duration: 0.2, ease: "easeOut"}}
+                    initial={{ backgroundColor: "transparent", scale: 1}}
+                    whileHover={{ backgroundColor: "#393fec", scale: 1.05 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
                   >
                     {framework.name}
                   </motion.div>

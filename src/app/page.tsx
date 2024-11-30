@@ -269,38 +269,164 @@ export default function Home() {
       
       <Projects
         imageDirection="right"
-        imageSrc={ScreenshotDexioprotocol}
-        title="Dexioprotocol"
-        role="Junior Frontend Developer"
+        imageSrc={ScreenshotDexioprotocol} // Placeholder image
+        title="Amplifier AI"
+        projectLink="https://your-project-url.com"
+        // role=""
         stack={[
           {
-            name: "TypeScriptttttpyr",
-            link: "https://www.TypeScriptlang.org/",
+            name: "Next.js",
+            link: "https://nextjs.org/",
           },
           {
-            name: "React",
-            link: "https://react.dev/",
+            name: "Python",
+            link: "https://www.python.org/",
+          },
+          {
+            name: "TypeScript",
+            link: "https://www.typescriptlang.org/",
+          },
+          {
+            name: "AWS S3",
+            link: "https://aws.amazon.com/s3/",
+          },
+          {
+            name: "ClerkAuth",
+            link: "https://clerk.dev/",
+          },
+          {
+            name: "Stripe",
+            link: "https://stripe.com/",
+          },
+          {
+            name: "OpenAI API",
+            link: "https://openai.com/api/",
+          },
+          {
+            name: "Prisma",
+            link: "https://www.prisma.io/",
+          },
+          {
+            name: "PostgreSQL",
+            link: "https://www.postgresql.org/",
+          },
+        ]}
+      >
+        <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+          <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'flex-start' }}>
+            <span style={{ marginRight: '0.5rem', color: '#4A90E2' }}>•</span>
+            <span>
+              Developed an AI-driven SaaS platform, featuring customizable AI Chatbots and an AI Lead Finder, addressing marketing challenges for 61% of startups, potentially reducing their 38% failure rate due to ineffective strategies.
+            </span>
+          </li>
+          <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'flex-start' }}>
+            <span style={{ marginRight: '0.5rem', color: '#4A90E2' }}>•</span>
+            <span>
+              Reached 56,000+ potential customers for a pilot driving school via Amplifier AI chatbot and Subreddit outreach.
+            </span>
+          </li>
+          <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'flex-start' }}>
+            <span style={{ marginRight: '0.5rem', color: '#4A90E2' }}>•</span>
+            <span>
+              Integrated payment processing with Stripe, implemented custom made auth pages using Clerk, optimized data storage with AWS S3, and facilitated real-time communication via Pusher API.
+            </span>
+          </li>
+        </ul>
+      </Projects>
+      
+      <Projects
+        imageDirection="left"
+        imageSrc={ScreenshotDexioprotocol} // Placeholder image
+        title="TradeWise"
+        projectLink="https://your-project-url.com"
+        // role="NextJS, TailwindCSS, TypeScript, Llama3.1 70B-Groq API, TradingView API"
+        stack={[
+          {
+            name: "NextJS",
+            link: "https://nextjs.org/",
           },
           {
             name: "TailwindCSS",
             link: "https://tailwindcss.com/",
           },
           {
-            name: "Figma",
-            link: "https://www.figma.com/",
+            name: "TypeScript",
+            link: "https://www.typescriptlang.org/",
           },
           {
-            name: "AdobeXD",
-            link: "https://helpx.adobe.com/au/support/xd.html",
+            name: "Llama3.1 70B-Groq API",
+            link: "https://www.groq.com/",
+          },
+          {
+            name: "TradingView API",
+            link: "https://www.tradingview.com/rest-api-spec/",
+          },
+        ]}
+        
+      >
+        <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+          <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'flex-start' }}>
+            <span style={{ marginRight: '0.5rem', color: '#4A90E2' }}>•</span>
+            <span>
+              Accumulated 7,000+ users by engineering TradeWise, an AI-driven financial assistant using NextJS, TypeScript, and TailwindCSS, providing market insights, interactive charts, and real-time financial data.
+            </span>
+          </li>
+          <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'flex-start' }}>
+            <span style={{ marginRight: '0.5rem', color: '#4A90E2' }}>•</span>
+            <span>
+              Integrated advanced features like TrendSpotter, StockX-Ray, and CandleForge with Llama3.1-70B-Groq API, TradingView API, and Shadcn UI, delivering lightning-fast, precise analysis across global markets.
+            </span>
+          </li>
+        </ul>
+      </Projects>
+      
+      <Projects
+        imageDirection="right"
+        imageSrc={ScreenshotDexioprotocol} // Placeholder image
+        title="Your Eyes"
+        projectLink="https://your-project-url.com"
+        // role="NextJS, TypeScript, TailwindCSS, YOLOv7, GPT-4 Vision, ONNX"
+        stack={[
+          {
+            name: "NextJS",
+            link: "https://nextjs.org/",
+          },
+          {
+            name: "TypeScript",
+            link: "https://www.typescriptlang.org/",
+          },
+          {
+            name: "TailwindCSS",
+            link: "https://tailwindcss.com/",
+          },
+          {
+            name: "YOLOv7",
+            link: "https://github.com/WongKinYiu/yolov7",
+          },
+          {
+            name: "GPT-4 Vision",
+            link: "https://openai.com/research/gpt-4",
+          },
+          {
+            name: "ONNX",
+            link: "https://onnx.ai/",
           },
         ]}
       >
-        Dexioprotocol is a Web3 gaming startup. My main roles include{" "}
-        <span className="font-semibold underline">Designing</span>, and creating{" "}
-        <span className="font-semibold underline">user stories</span> for the
-        developers to implement. My main responsibilities include: creating a
-        good user experience for the Dexioprotocol web application, listening to
-        user feedback and turning them into developer-friendly user stories.
+        <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+          <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'flex-start' }}>
+            <span style={{ marginRight: '0.5rem', color: '#4A90E2' }}>•</span>
+            <span>
+              Achieved real-time object detection with 100ms latency by optimizing YOLOv7 models and GPT-4 Vision using Next.js and TypeScript, enhancing accessibility for visually impaired users and attracting 500+ users in 3 weeks.
+            </span>
+          </li>
+          <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'flex-start' }}>
+            <span style={{ marginRight: '0.5rem', color: '#4A90E2' }}>•</span>
+            <span>
+              Optimized performance and accuracy by deploying multiple ONNX models (256x256, 320x320, 640x640) and implemented a dual-voice TTS system with priority-based audio scheduling, reducing audio overlap by 70%.
+            </span>
+          </li>
+        </ul>
       </Projects>
       
       
