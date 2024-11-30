@@ -339,7 +339,7 @@ export default function Home() {
       
       <Projects
         imageDirection="left"
-        imageSrc={ScreenshotTradewise} // Placeholder image
+        imageSrc={ScreenshotTradewiseV2} // Placeholder image
         title="TradeWise"
         projectLink="https://github.com/Ahthe/TradeWise"
         // role="NextJS, TailwindCSS, TypeScript, Llama3.1 70B-Groq API, TradingView API"
