@@ -19,7 +19,7 @@ import ScreenshotVrShooter from "~/assets/screenshots/screenshooter-vr.png";
 import ScreenshotJava from "~/assets/screenshots/screenshot-java.png";
 import ScreenshotJavaScript from "~/assets/screenshots/screenshot-javascript.png";
 import ScreenshotAlhamdulillah from "~/assets/screenshots/screenshot-alhamdulillah.png";
-import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewise.png";
+import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png";
 import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
 import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png"
 import Selfy from "~/assets/me.png";
@@ -339,7 +339,7 @@ export default function Home() {
       
       <Projects
         imageDirection="left"
-        imageSrc={ScreenshotTradewiseV2} // Placeholder image
+        imageSrc={ScreenshotTradewise} // Placeholder image
         title="TradeWise"
         projectLink="https://github.com/Ahthe/TradeWise"
         // role="NextJS, TailwindCSS, TypeScript, Llama3.1 70B-Groq API, TradingView API"
