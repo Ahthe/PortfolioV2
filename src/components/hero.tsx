@@ -69,7 +69,7 @@ export default function Hero() {
         }}
       >
         <Image
-          src={ScreenshotFalcon}
+          src={ScreenshotTradewiseV2}
           alt="Screenshot-CMC"
           className="bottom-0 h-60 w-auto -translate-x-3/4 translate-y-1/2 lg:h-96 lg:-translate-x-1/2 lg:translate-y-1/4"
           priority
