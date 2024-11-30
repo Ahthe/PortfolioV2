@@ -6,6 +6,7 @@ import Image from "next/image";
 import Screenshot404 from "~/assets/screenshots/screenshot-404.png";
 import ScreenshotCMC from "~/assets/screenshots/screenshot-cmc.png";
 import ScreenshotPaydeskMobile from "~/assets/screenshots/screenshot-paydesk-mobile.png";
+import ScreenshotTrademoreMobile from "~/assets/screenshots/screenshot-trademore.png";
 import {bounceAnimation} from "~/utils/animations";
 import {useParallax} from "~/utils/useParallax";
 import {useRef} from "react";
@@ -33,7 +34,7 @@ export default function Hero() {
         }}
       >
         <Image
-          src={ScreenshotPaydeskMobile}
+          src={ScreenshotTrademoreMobile}
           alt="Screenshot-CMC"
           className=" h-60 w-auto translate-x-1/2 translate-y-1/2 rounded-lg lg:h-96 lg:translate-x-1/3 lg:translate-y-0"
           priority
