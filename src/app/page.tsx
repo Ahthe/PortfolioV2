@@ -17,8 +17,11 @@ import ScreenshotLearnfast from "~/assets/screenshots/screenshot-learnfast.png";
 import ScreenshotAmplifierAI from "~/assets/screenshots/screenshot-amplifierai.png";
 import ScreenshotVrShooter from "~/assets/screenshots/screenshooter-vr.png";
 import ScreenshotJava from "~/assets/screenshots/screenshot-java.png";
-import ScreenshotJavaScript from "~/assets/screenshots/screenshot-javascript.png"
-import ScreenshotAlhamdulillah from "~/assets/screenshots/screenshot-alhamdulillah.png"
+import ScreenshotJavaScript from "~/assets/screenshots/screenshot-javascript.png";
+import ScreenshotAlhamdulillah from "~/assets/screenshots/screenshot-alhamdulillah.png";
+import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewise.png";
+import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
+import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png"
 import Selfy from "~/assets/me.png";
 import {Services} from "~/config/services";
 import Stats from "~/components/stats";
@@ -269,9 +272,9 @@ export default function Home() {
       
       <Projects
         imageDirection="right"
-        imageSrc={ScreenshotDexioprotocol} // Placeholder image
+        imageSrc={ScreenshotAmplifierAI} // Placeholder image
         title="Amplifier AI"
-        projectLink="https://your-project-url.com"
+        projectLink="https://amplifire-ai.vercel.app/"
         // role=""
         stack={[
           {
@@ -336,9 +339,9 @@ export default function Home() {
       
       <Projects
         imageDirection="left"
-        imageSrc={ScreenshotDexioprotocol} // Placeholder image
+        imageSrc={ScreenshotTradewise} // Placeholder image
         title="TradeWise"
-        projectLink="https://your-project-url.com"
+        projectLink="https://github.com/Ahthe/TradeWise"
         // role="NextJS, TailwindCSS, TypeScript, Llama3.1 70B-Groq API, TradingView API"
         stack={[
           {
@@ -382,9 +385,9 @@ export default function Home() {
       
       <Projects
         imageDirection="right"
-        imageSrc={ScreenshotDexioprotocol} // Placeholder image
+        imageSrc={ScreenshotYoureyes} // Placeholder image
         title="Your Eyes"
-        projectLink="https://your-project-url.com"
+        projectLink="https://github.com/Ahthe/VisionaryPath"
         // role="NextJS, TypeScript, TailwindCSS, YOLOv7, GPT-4 Vision, ONNX"
         stack={[
           {
