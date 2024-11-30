@@ -21,7 +21,7 @@ import ScreenshotJavaScript from "~/assets/screenshots/screenshot-javascript.png
 import ScreenshotAlhamdulillah from "~/assets/screenshots/screenshot-alhamdulillah.png";
 import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png";
 import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
-import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png"
+import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png";
 import Selfy from "~/assets/me.png";
 import {Services} from "~/config/services";
 import Stats from "~/components/stats";

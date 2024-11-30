@@ -7,6 +7,10 @@ import Screenshot404 from "~/assets/screenshots/screenshot-404.png";
 import ScreenshotCMC from "~/assets/screenshots/screenshot-cmc.png";
 import ScreenshotPaydeskMobile from "~/assets/screenshots/screenshot-paydesk-mobile.png";
 import ScreenshotTrademoreMobile from "~/assets/screenshots/screenshot-trademore.png";
+import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png";
+import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
+import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png";
+import ScreenshotFalcon from "~/assets/screenshots/screenshot-falconx.png";
 import {bounceAnimation} from "~/utils/animations";
 import {useParallax} from "~/utils/useParallax";
 import {useRef} from "react";
@@ -35,7 +39,7 @@ export default function Hero() {
       >
         <Image
           src={ScreenshotTrademoreMobile}
-          alt="Screenshot-CMC"
+          alt="Screenshot-trademore"
           className=" h-60 w-auto translate-x-1/2 translate-y-1/2 rounded-lg lg:h-96 lg:translate-x-1/3 lg:translate-y-0"
           priority
         />
@@ -50,7 +54,7 @@ export default function Hero() {
         }}
       >
         <Image
-          src={Screenshot404}
+          src={ScreenshotYoureyes}
           alt="Screenshot-404"
           className="h-60 w-auto translate-x-1/2 translate-y-1/2 rounded-lg lg:h-96 lg:translate-x-1/3 lg:translate-y-1/4"
           priority
@@ -65,7 +69,7 @@ export default function Hero() {
         }}
       >
         <Image
-          src={ScreenshotCMC}
+          src={ScreenshotFalcon}
           alt="Screenshot-CMC"
           className="bottom-0 h-60 w-auto -translate-x-3/4 translate-y-1/2 lg:h-96 lg:-translate-x-1/2 lg:translate-y-1/4"
           priority
