@@ -7,10 +7,12 @@ import MainLayout from "~/components/layouts/main";
 import Navbar from "~/components/navbar";
 import PageHeading from "~/components/layouts/pageLayout";
 import PageLayout from "~/components/layouts/pageLayout";
-import Screenshot404 from "~/assets/screenshots/screenshot-404.png";
-import ScreenshotBlockrecipes from "~/assets/screenshots/screenshot-blockrecipes.png";
-import ScreenshotCMC from "~/assets/screenshots/screenshot-cmc.png";
-
+import ScreenshotLearnfast from "~/assets/screenshots/screenshot-learnfast.png";
+import ScreenshotAmplifierAI from "~/assets/screenshots/screenshot-amplifierai.png";
+import ScreenshotVrShooter from "~/assets/screenshots/screenshooter-vr.png";
+import ScreenshotJava from "~/assets/screenshots/screenshot-java.png";
+import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png";
+import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png";
 export default function ContactPage() {
   return (
     <MainLayout>
@@ -18,12 +20,12 @@ export default function ContactPage() {
         <Navbar />
         <PageLayout
           heading="SEND MESSAGE"
-          image1URL={Screenshot404}
-          image1Alt="Screenshot-404"
-          image2URL={ScreenshotBlockrecipes}
-          image2Alt="Screenshot-404"
-          image3URL={ScreenshotCMC}
-          image3Alt="Screenshot-CMC"
+            image1URL={ScreenshotAmplifierAI}
+            image1Alt="Amplifier-AI-Screenshot"
+            image2URL={ScreenshotTradewise}
+            image2Alt="Tradewise-Screenshot"
+            image3URL={ScreenshotYoureyes}
+            image3Alt="YourEyes-Screenshot"
         />
       </div>
       <Contact />
