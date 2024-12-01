@@ -5,10 +5,10 @@ import {useRef} from "react";
 import {useSize} from "~/contexts/sizeContext";
 
 const stats = [
-  {id: 1, name: "Years of Experience", value: "3+"},
-  {id: 2, name: "Proficient Frameworks", value: "20+"},
-  {id: 3, name: "Applications Deployed", value: "40+"},
-  {id: 4, name: "Cafe's Coded In", value: "100+"},
+  {id: 1, name: "Years of Experience", value: "2+"},
+  {id: 2, name: "Accumulated User's", value: "8000+"},
+  {id: 3, name: "Applications Deployed", value: "10+"},
+  {id: 4, name: "Tech Stack", value: "20+"},
 ];
 
 export default function Stats() {

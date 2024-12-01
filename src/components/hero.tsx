@@ -3,16 +3,13 @@ import {motion, useInView, useScroll, useTransform} from "framer-motion";
 import Button from "~/components/button";
 import Container from "~/components/container";
 import Image from "next/image";
-import Screenshot404 from "~/assets/screenshots/screenshot-404.png";
-import ScreenshotCMC from "~/assets/screenshots/screenshot-cmc.png";
-import ScreenshotPaydeskMobile from "~/assets/screenshots/screenshot-paydesk-mobile.png";
 import ScreenshotTrademoreMobile from "~/assets/screenshots/screenshot-trademore.png";
-import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png";
-import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
+// import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png";
+// import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
+// import ScreenshotTradewiseV3 from "~/assets/screenshots/screenshot-tradewisev3.png";
 import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png";
 import ScreenshotFalcon from "~/assets/screenshots/screenshot-falconx.png";
 import ScreenshotLiferpg from "~/assets/screenshots/screenshot-liferpg.png";
-import ScreenshotLiferpgv2 from "~/assets/screenshots/screenshot-liferpgv2.png";
 import {bounceAnimation} from "~/utils/animations";
 import {useParallax} from "~/utils/useParallax";
 import {useRef} from "react";
@@ -40,6 +37,7 @@ export default function Hero() {
         }}
       >
         <Image
+          // src={ScreenshotTradewiseV3}
           src={ScreenshotTrademoreMobile}
           alt="Screenshot-trademore"
           className=" h-60 w-auto translate-x-1/2 translate-y-1/2 rounded-lg lg:h-96 lg:translate-x-1/3 lg:translate-y-0"
@@ -90,7 +88,7 @@ export default function Hero() {
             className="text-4xl lg:text-[100px]"
             variants={bounceAnimation}
           >
-            G&apos;day, I&apos;m
+            Hey 👋, I&apos;m
           </motion.h1>
 
           <motion.h1
@@ -107,10 +105,9 @@ export default function Hero() {
           className="relative z-10 my-12 text-center text-xl text-white lg:mb-12 lg:mt-12 lg:text-3xl"
           variants={bounceAnimation}
         >
-          I&apos;m a self taught{" "}
-          <strong className="underline">Full-Stack Web Developer </strong>
-          <br className="hidden text-start lg:flex" /> that specialises in
-          creating High Converting & Efficient web applications.
+          I&apos;m a {" "}
+          <strong className="underline">Software Engineer</strong>
+          <br className="hidden text-start lg:flex" /> that specialises in developing fast, minimalistic applications with exceptional user experience.
         </motion.p>
         <motion.div className="flex justify-center" variants={bounceAnimation}>
           <Button href="/contact">Lets Chat</Button>

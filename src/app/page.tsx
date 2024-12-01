@@ -9,18 +9,14 @@ import Hero from "~/components/hero";
 import Link from "next/link";
 import MainLayout from "~/components/layouts/main";
 import Navbar from "~/components/navbar";
-import ScreenshotBlockrecipes from "~/assets/screenshots/screenshot-blockrecipes.png";
-import ScreenshotDexioprotocol from "~/assets/screenshots/screenshot-dexioprotocol.png";
-import ScreenshotWilakMedia from "~/assets/screenshots/wilak-media.png";
 import ScrollingBanner from "~/components/scrollingBanner";
 import ScreenshotLearnfast from "~/assets/screenshots/screenshot-learnfast.png";
 import ScreenshotAmplifierAI from "~/assets/screenshots/screenshot-amplifierai.png";
 import ScreenshotVrShooter from "~/assets/screenshots/screenshooter-vr.png";
 import ScreenshotJava from "~/assets/screenshots/screenshot-java.png";
 import ScreenshotJavaScript from "~/assets/screenshots/screenshot-javascript.png";
-import ScreenshotAlhamdulillah from "~/assets/screenshots/screenshot-alhamdulillah.png";
 import ScreenshotTradewise from "~/assets/screenshots/screenshot-tradewisee.png";
-import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
+// import ScreenshotTradewiseV2 from "~/assets/screenshots/screenshot-tradewisev2.png";
 import ScreenshotYoureyes from "~/assets/screenshots/screenshot-youreyes.png";
 import Selfy from "~/assets/me.png";
 import {Services} from "~/config/services";
@@ -35,7 +31,7 @@ export default function Home() {
       </div>
       <Stats />
       <Content cta ctaText="Learn More" ctaLink="/about">
-        <p>
+        {/* <p>
           G&apos;day, I&apos;m Ahthesham Ali, a passionate full-stack web developer
           and designer based out of Brisbane, Australia. I&apos;m currently the
           Web Development Manager at{" "}
@@ -44,6 +40,14 @@ export default function Home() {
           </Link>{" "}
           where I&apos;m responsible for the design, development and performance
           of 40+ clients.
+        </p> */}
+        <p>
+        {/* I&apos;m a Software Engineer with experience developing applications that serve over 8,000 users worldwide. 
+        Holding a degree in Computer Science from the University of Mount Union, complemented by a minor in Psychology, 
+        I blend technical proficiency with psychological insight to craft intuitive, minimalist, and high-performance software. 
+        My projects range from AI-powered Software platforms to accessibility tools, consistently delivering impactful solutions. */}
+        I&apos;m a Software Engineer with experience serving <span className="text-yellow-400">8,000+ user&apos;s</span> worldwide. With a CS degree and Psychology minor from Mount Union, 
+        I craft intuitive, minimalistic and high-performance software solutions ranging from AI platforms to accessibility tools.
         </p>
       </Content>
       <ScrollingBanner baseVelocity={-200}>Experience</ScrollingBanner>
@@ -440,19 +444,19 @@ export default function Home() {
           I&apos;m naturally a <span className="underline">curious person</span>{" "}
           and love learning new technologies and skills. I&apos;ve listed all of
           the frameworks and skills I&apos;m proficient in below. Feel free to{" "}
-          <span className="underline">ask</span> me about any of them :).
+          <span className="underline">ask</span> me about any of them :)
         </p>
       </Content>
       <AccordianList items={Services} />
 
       <Content cta ctaText="Let's Chat" ctaLink="/contact">
-        I&apos;m a passionate full-stack web developer and designer based out of
-        Brisbane, Australia. I&apos;m currently the Web Development Manager at
-        Wilak Media where I&apos;m responsible for the design, development and
-        performance of 40+ clients. I&apos;m an enthusiastic, naturally curious
-        guy who loves learning new technologies and skills. Outside of work I
-        like to play a bit of cricket and hit the gym.
-      </Content>
+
+          I thrive on building innovative solutions and exploring new technologies. 
+          My curiosity drives me to constantly learn and implement emerging development practices, 
+          with a proven ability to quickly adapt to new environments and technologies. 
+          Outside of coding, I enjoy playing games and staying active through swimming.
+
+        </Content>
     </MainLayout>
   );
 }

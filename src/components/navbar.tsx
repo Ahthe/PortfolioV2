@@ -198,6 +198,8 @@ function DesktopNavbar({starCount}: {starCount: number}) {
           <Link
             key={item.name}
             href={item.href}
+            target={item.name === "Github" ? "_blank" : "_self"}  // Add this line
+            rel={item.name === "Github" ? "noopener noreferrer" : ""}  // Add this line
             className=" z-10 cursor-pointer text-white"
             passHref
           >
@@ -208,12 +210,7 @@ function DesktopNavbar({starCount}: {starCount: number}) {
               className="flex flex-row gap-x-2"
             >
               <item.icon className=" h-8 w-8" />
-              {item.name === "Github" ? (
-                <div className="text-white text-2xl items-center flex flex-row gap-x-1">
-                  {starCount}
-                  <StarFilledIcon className="h-6 w-6" />
-                </div>
-              ) : null}
+              {item.name === "Github" ? null : null}
             </motion.div>
           </Link>
         ))}
